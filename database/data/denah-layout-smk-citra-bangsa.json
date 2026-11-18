@@ -1,0 +1,736 @@
+{
+ "title": "DENAH SEKOLAH",
+ "subtitle": "SMK Citra Bangsa Mandiri Purwokerto · Gedung A, B, C, D",
+ "note": "Disusun Bidang Sarpras · Tahun Pelajaran 2026/2027",
+ "buildings": [
+  {
+   "name": "GEDUNG A",
+   "note": "3 lantai · ruang 1–23",
+   "span": "penuh",
+   "sections": [
+    {
+     "label": "3",
+     "rows": [
+      {
+       "size": "besar",
+       "rooms": [
+        {
+         "num": "14",
+         "name": "XI PH",
+         "kind": "xi",
+         "cap": 37,
+         "w": 1.2
+        },
+        {
+         "num": "",
+         "name": "",
+         "kind": "tangga",
+         "cap": 0,
+         "w": 0.3
+        },
+        {
+         "num": "15",
+         "name": "XI LPKC 2",
+         "kind": "xi",
+         "cap": 32,
+         "w": 1
+        },
+        {
+         "num": "16",
+         "name": "XI LPK3 2",
+         "kind": "xi",
+         "cap": 30,
+         "w": 1
+        },
+        {
+         "num": "17",
+         "name": "XI LPKC 3",
+         "kind": "xi",
+         "cap": 28,
+         "w": 1
+        },
+        {
+         "num": "18",
+         "name": "X LPLM 2",
+         "kind": "x",
+         "cap": 22,
+         "w": 1
+        },
+        {
+         "num": "19",
+         "name": "XI LPK3 1",
+         "kind": "xi",
+         "cap": 22,
+         "w": 1
+        },
+        {
+         "num": "20",
+         "name": "XI LPKC 1",
+         "kind": "xi",
+         "cap": 30,
+         "w": 1
+        },
+        {
+         "num": "",
+         "name": "",
+         "kind": "kosong",
+         "cap": 0,
+         "w": 0.9
+        },
+        {
+         "num": "",
+         "name": "",
+         "kind": "wc",
+         "cap": 0,
+         "w": 0.5
+        },
+        {
+         "num": "21",
+         "name": "X KUL 1",
+         "kind": "x",
+         "cap": 32,
+         "w": 1.15
+        },
+        {
+         "num": "22",
+         "name": "X KUL 2",
+         "kind": "x",
+         "cap": 32,
+         "w": 1.15
+        },
+        {
+         "num": "",
+         "name": "",
+         "kind": "tangga",
+         "cap": 0,
+         "w": 0.3
+        },
+        {
+         "num": "23",
+         "name": "X BD",
+         "kind": "x",
+         "cap": 39,
+         "w": 1.15
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "label": "2",
+     "rows": [
+      {
+       "size": "besar",
+       "rooms": [
+        {
+         "num": "13",
+         "name": "X LPK3 4",
+         "kind": "x",
+         "cap": 32,
+         "w": 1.2
+        },
+        {
+         "num": "",
+         "name": "",
+         "kind": "tangga",
+         "cap": 0,
+         "w": 0.3
+        },
+        {
+         "num": "12",
+         "name": "X LPK3 3",
+         "kind": "x",
+         "cap": 32,
+         "w": 1.1
+        },
+        {
+         "num": "11",
+         "name": "X LPK3 2",
+         "kind": "x",
+         "cap": 32,
+         "w": 1.1
+        },
+        {
+         "num": "10",
+         "name": "X LPK3 1",
+         "kind": "x",
+         "cap": 32,
+         "w": 1.1
+        },
+        {
+         "num": "",
+         "name": "",
+         "kind": "kosong",
+         "cap": 0,
+         "w": 2.7
+        },
+        {
+         "num": "",
+         "name": "",
+         "kind": "wc",
+         "cap": 0,
+         "w": 0.5
+        },
+        {
+         "num": "9",
+         "name": "X PH 1",
+         "kind": "x",
+         "cap": 30,
+         "w": 1.15
+        },
+        {
+         "num": "8",
+         "name": "X PH 2",
+         "kind": "x",
+         "cap": 30,
+         "w": 1.15
+        },
+        {
+         "num": "",
+         "name": "",
+         "kind": "tangga",
+         "cap": 0,
+         "w": 0.3
+        },
+        {
+         "num": "7",
+         "name": "X PH 3",
+         "kind": "x",
+         "cap": 30,
+         "w": 1.15
+        }
+       ]
+      },
+      {
+       "size": "kecil",
+       "rooms": [
+        {
+         "num": "",
+         "name": "",
+         "kind": "spasi",
+         "cap": 0,
+         "w": 5.3
+        },
+        {
+         "num": "",
+         "name": "LAB HOTEL",
+         "kind": "lab",
+         "cap": 0,
+         "w": 1.2
+        },
+        {
+         "num": "",
+         "name": "R. GURU",
+         "kind": "kantor",
+         "cap": 0,
+         "w": 2.1
+        },
+        {
+         "num": "",
+         "name": "R. WAKA\\n& STAF",
+         "kind": "kantor",
+         "cap": 0,
+         "w": 1.4
+        },
+        {
+         "num": "",
+         "name": "R. SERVER",
+         "kind": "fas",
+         "cap": 0,
+         "w": 0.95
+        },
+        {
+         "num": "",
+         "name": "",
+         "kind": "spasi",
+         "cap": 0,
+         "w": 3.4
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "label": "1",
+     "rows": [
+      {
+       "size": "besar",
+       "rooms": [
+        {
+         "num": "1",
+         "name": "X LKPC 1",
+         "kind": "x",
+         "cap": 36,
+         "w": 1.4
+        },
+        {
+         "num": "",
+         "name": "",
+         "kind": "tangga",
+         "cap": 0,
+         "w": 0.3
+        },
+        {
+         "num": "2",
+         "name": "X LKPC 2",
+         "kind": "x",
+         "cap": 36,
+         "w": 1.4
+        },
+        {
+         "num": "3",
+         "name": "X LKPC 3",
+         "kind": "x",
+         "cap": 35,
+         "w": 1.4
+        },
+        {
+         "num": "",
+         "name": "",
+         "kind": "kosong",
+         "cap": 0,
+         "w": 2.3
+        },
+        {
+         "num": "",
+         "name": "",
+         "kind": "wc",
+         "cap": 0,
+         "w": 0.5
+        },
+        {
+         "num": "4",
+         "name": "X LKPC 4",
+         "kind": "x",
+         "cap": 36,
+         "w": 1.4
+        },
+        {
+         "num": "5",
+         "name": "X LKPC 5",
+         "kind": "x",
+         "cap": 32,
+         "w": 1.4
+        },
+        {
+         "num": "",
+         "name": "",
+         "kind": "kosong",
+         "cap": 0,
+         "w": 0.7
+        },
+        {
+         "num": "6",
+         "name": "XI LKPC 4",
+         "kind": "xi",
+         "cap": 36,
+         "w": 1.4
+        }
+       ]
+      },
+      {
+       "size": "kecil",
+       "rooms": [
+        {
+         "num": "",
+         "name": "XI BD (ILC)",
+         "kind": "xi",
+         "cap": 38,
+         "w": 1.3
+        },
+        {
+         "num": "",
+         "name": "XII BD (ILC)",
+         "kind": "xii",
+         "cap": 39,
+         "w": 1.3
+        },
+        {
+         "num": "",
+         "name": "",
+         "kind": "spasi",
+         "cap": 0,
+         "w": 2.6
+        },
+        {
+         "num": "",
+         "name": "R. BKK",
+         "kind": "kantor",
+         "cap": 0,
+         "w": 0.85
+        },
+        {
+         "num": "",
+         "name": "R. OB",
+         "kind": "fas",
+         "cap": 0,
+         "w": 0.65
+        },
+        {
+         "num": "",
+         "name": "GUDANG",
+         "kind": "fas",
+         "cap": 0,
+         "w": 0.8
+        },
+        {
+         "num": "",
+         "name": "R. SPMB &\\nSARPRAS",
+         "kind": "kantor",
+         "cap": 0,
+         "w": 1.8
+        },
+        {
+         "num": "",
+         "name": "GUDANG",
+         "kind": "fas",
+         "cap": 0,
+         "w": 0.9
+        },
+        {
+         "num": "",
+         "name": "",
+         "kind": "spasi",
+         "cap": 0,
+         "w": 2.4
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "GEDUNG B",
+   "note": "ruang 24–30",
+   "span": "setengah",
+   "sections": [
+    {
+     "label": "",
+     "rows": [
+      {
+       "size": "besar",
+       "rooms": [
+        {
+         "num": "28",
+         "name": "XII LKPC 4",
+         "kind": "xii",
+         "cap": 30,
+         "w": 1
+        },
+        {
+         "num": "29",
+         "name": "XII LPK3 3",
+         "kind": "xii",
+         "cap": 26,
+         "w": 1
+        },
+        {
+         "num": "30",
+         "name": "XII LKPC 1",
+         "kind": "xii",
+         "cap": 31,
+         "w": 1
+        }
+       ]
+      },
+      {
+       "size": "kecil",
+       "rooms": [
+        {
+         "num": "",
+         "name": "",
+         "kind": "spasi",
+         "cap": 0,
+         "w": 1
+        },
+        {
+         "num": "",
+         "name": "PERPUSTAKAAN",
+         "kind": "pus",
+         "cap": 0,
+         "w": 2
+        }
+       ]
+      },
+      {
+       "size": "besar",
+       "rooms": [
+        {
+         "num": "",
+         "name": "",
+         "kind": "spasi",
+         "cap": 0,
+         "w": 1
+        },
+        {
+         "num": "27",
+         "name": "XII LPK3 1",
+         "kind": "xii",
+         "cap": 26,
+         "w": 1
+        },
+        {
+         "num": "",
+         "name": "",
+         "kind": "spasi",
+         "cap": 0,
+         "w": 1
+        }
+       ]
+      },
+      {
+       "size": "besar",
+       "rooms": [
+        {
+         "num": "24",
+         "name": "XII LPLM",
+         "kind": "xii",
+         "cap": 36,
+         "w": 1
+        },
+        {
+         "num": "25",
+         "name": "XII LPKC 3",
+         "kind": "xii",
+         "cap": 34,
+         "w": 1
+        },
+        {
+         "num": "26",
+         "name": "XII PH",
+         "kind": "xii",
+         "cap": 32,
+         "w": 1
+        }
+       ]
+      },
+      {
+       "size": "kecil",
+       "rooms": [
+        {
+         "num": "",
+         "name": "SEKRE\\nPMR",
+         "kind": "fas",
+         "cap": 0,
+         "w": 0.6
+        },
+        {
+         "num": "",
+         "name": "SEKRE\\nOSIS",
+         "kind": "fas",
+         "cap": 0,
+         "w": 0.6
+        },
+        {
+         "num": "",
+         "name": "SEKRE\\nPRAMUKA",
+         "kind": "fas",
+         "cap": 0,
+         "w": 0.7
+        },
+        {
+         "num": "",
+         "name": "STAGE",
+         "kind": "kantor",
+         "cap": 0,
+         "w": 0.8
+        },
+        {
+         "num": "",
+         "name": "OPEN KITCHEN",
+         "kind": "lab",
+         "cap": 0,
+         "w": 1.3
+        }
+       ]
+      },
+      {
+       "size": "besar",
+       "rooms": [
+        {
+         "num": "",
+         "name": "AULA TERBUKA",
+         "kind": "aula",
+         "cap": 0,
+         "w": 1
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "GEDUNG C",
+   "note": "ruang 31–35",
+   "span": "setengah",
+   "sections": [
+    {
+     "label": "1",
+     "rows": [
+      {
+       "size": "besar",
+       "rooms": [
+        {
+         "num": "",
+         "name": "XI LPLM",
+         "kind": "xi",
+         "cap": 0,
+         "w": 1.2
+        },
+        {
+         "num": "",
+         "name": "LAB\\nLKPC",
+         "kind": "lab",
+         "cap": 0,
+         "w": 0.8
+        },
+        {
+         "num": "",
+         "name": "XII\\nLKPC 2",
+         "kind": "xii",
+         "cap": 0,
+         "w": 0.9
+        },
+        {
+         "num": "",
+         "name": "LAB\\nLPK3",
+         "kind": "lab",
+         "cap": 0,
+         "w": 0.8
+        },
+        {
+         "num": "",
+         "name": "XII\\nLPK3 2",
+         "kind": "xii",
+         "cap": 0,
+         "w": 0.9
+        }
+       ]
+      },
+      {
+       "size": "kecil",
+       "rooms": [
+        {
+         "num": "31",
+         "name": "LAB KOM 1",
+         "kind": "lab",
+         "cap": 0,
+         "w": 1
+        },
+        {
+         "num": "",
+         "name": "LAB KOM 2",
+         "kind": "lab",
+         "cap": 0,
+         "w": 1
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "label": "2",
+     "rows": [
+      {
+       "size": "besar",
+       "rooms": [
+        {
+         "num": "33",
+         "name": "X KUL 3",
+         "kind": "x",
+         "cap": 35,
+         "w": 1
+        },
+        {
+         "num": "32",
+         "name": "X KUL 4",
+         "kind": "x",
+         "cap": 32,
+         "w": 1
+        },
+        {
+         "num": "",
+         "name": "LAB LPLM",
+         "kind": "lab",
+         "cap": 0,
+         "w": 1
+        },
+        {
+         "num": "",
+         "name": "X LPLM 1",
+         "kind": "x",
+         "cap": 32,
+         "w": 1
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "label": "3",
+     "rows": [
+      {
+       "size": "besar",
+       "rooms": [
+        {
+         "num": "",
+         "name": "LAB\\nKULINER",
+         "kind": "lab",
+         "cap": 0,
+         "w": 1
+        },
+        {
+         "num": "34",
+         "name": "XI KUL 1",
+         "kind": "xi",
+         "cap": 31,
+         "w": 1
+        },
+        {
+         "num": "35",
+         "name": "XI KUL 2",
+         "kind": "xi",
+         "cap": 32,
+         "w": 1
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "GEDUNG D",
+   "note": "ruang 36–37",
+   "span": "sepertiga",
+   "sections": [
+    {
+     "label": "",
+     "rows": [
+      {
+       "size": "besar",
+       "rooms": [
+        {
+         "num": "36",
+         "name": "XII KUL 2",
+         "kind": "xii",
+         "cap": 25,
+         "w": 1
+        },
+        {
+         "num": "37",
+         "name": "XII KUL 1",
+         "kind": "xii",
+         "cap": 20,
+         "w": 1
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

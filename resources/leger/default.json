@@ -1,0 +1,75 @@
+{
+  "subjects": [
+    {
+      "name": "Pendidikan Agama Dan Budi Pekerti",
+      "mastered": "Peserta didik memahami materi sabar, munafik dan keras hati,cinta tanah air dan moderasi beragama.",
+      "needs": "Peserta didik membutuhkan bimbingaan tambahan untuk materi kewarisan dan perkembangan peradaban  Islam"
+    },
+    {
+      "name": "Pendidikan Pancasila dan Budi Pekerti",
+      "mastered": "keterkaitan sila-sila dalam Pancasila dan kedudukan Pancasila sebagai Ideologi negara",
+      "needs": "Penerapan Pancasila dalam kehidupan Global dan membiasakan perilaku yang sesuai dengan nilai-nilai Pancasila sebagai identitas nasional dalam kehidupan sehari-hari"
+    },
+    {
+      "name": "Bahasa Indonesia",
+      "mastered": "menginterpretasi informasi dalam teks biografi sastrawan untuk mengungkapkan gagasan dan perasaan simpati, peduli, dan empati secara kreatif.",
+      "needs": "membutuhkan bimbingan dalam menginterpretasi informasi dalam teks biografi sastrawan untuk mengungkapkan gagasan dan perasaan simpati, peduli, dan empati secara kreatif; dan menjelaskan informasi atau pesan yang disampaikan dalam puisi secara kritis dan reflektif."
+    },
+    {
+      "name": "Pendidikan Jasmani, Olah Raga dan Kesehatan",
+      "mastered": "",
+      "needs": ""
+    },
+    {
+      "name": "Sejarah",
+      "mastered": "",
+      "needs": ""
+    },
+    {
+      "name": "Bahasa Jawa",
+      "mastered": "perilaku santun, responsif dan proaktif dalam Mengusai materi serat wedhatama pupuh kinanti, memahami ragam busana adat jawa serta dapat membedakan bentuk dan jenis gamelan.",
+      "needs": "penulisan aksra Jawa dan penggunaan macam-macam sandhangan"
+    },
+    {
+      "name": "Matematika",
+      "mastered": "menyelesaikan permasalahan yang berkaitan dengan statistika",
+      "needs": "materi peluang"
+    },
+    {
+      "name": "Bahasa Inggris",
+      "mastered": "Mempraktikan asking for and Offering Help or Service, Application Letter, dan Job Interview dengan baik.",
+      "needs": "Kemampuan komputerisasi, fluency dan pronunciation dalam speaking."
+    },
+    {
+      "name": "Mata Pelajaran Konsentrasi Keahlian",
+      "mastered": "Membuat sediaan larutan, suspensi, emulsi; distribusi sediaan farmasi; menerapkan teknik pencatatan dan dokumentasi perencanaan, pengadaan, pemesanan, penerimaan, penyimpanan, dan distribusi untuk memenuhi kebutuhan sediaan farmasi dan perbekalan kesehatan; memahami penyakit dan obat-obatan anoreksansia dan Antihistamin; membuat sediaan jamu kekinian secara sederhana dan menganalisis sediaan galenika.",
+      "needs": "beberapa masih memerlukan bimbingan lebih lanjut dalam menghitung volume ekivalen dan menganalisis data; masih kurang terampil dalam melakukan pencatatan barang pada kartu stok dan komunikasi dengan distributor dalam melakukan pemesanan sediaan farmasi dan perbekalan kesehatan; masih kurang terampil dalam melakukan identifikasi kasus terkait pemilihan obat; belum terampil dalam membuat sediaan jamu kekinian sederhana."
+    },
+    {
+      "name": "Projek Kreatif dan Kewirausahaan",
+      "mastered": "Peserta didik sangat memahami tentang wirausaha perencanaan usaha produksi massal dan mampu mendesain produk.",
+      "needs": "Peserta didik masih membutuhkan bimbingan dalam menghitung produksi dan membuat strategi pemasaran."
+    },
+    {
+      "name": "Mata Pelajaran Pilihan",
+      "mastered": "melakukan swamedikasi; menerapkan pengelolaan perbekalan kesehatan; memahami obat-obatan dan penyakit sistem integumen, dan sistem kekebalan tubuh",
+      "needs": "beberapa siswa masih kurang terampil dalam melakukan identifikasi kasus terkait pemilihan obat untuk swamedikasi; kurang  terampil dalam menganalisis dokumen administrasi dan dalam berkomunikasi dengan distributor dalam melakukan pemesanan sediaan farmasi dan perbekalan kesehatan; masih kurang terampil dalam melakukan identifikasi kasus terkait pemilihan obat sistem integumen  dan sistem kekebalan tubuh"
+    }
+  ],
+  "extracurriculars": [
+    "Pramuka",
+    "Seni Tari",
+    "Olah Raga",
+    "Paduan Suara",
+    "Bahasa Jepang",
+    "PMR",
+    "BOLA VOLLY",
+    "FUTSAL & SEPAK BOLA",
+    "TARI",
+    "BELADIRI",
+    "PASKIBRA",
+    "ROHIS",
+    "CEC (CBM English Club)"
+  ],
+  "_source": "Struktur bawaan dari prototipe MyPresence (sheet nilai & CAPAIAN MATERI). Admin dapat mengganti dengan master .xlsx sekolah."
+}

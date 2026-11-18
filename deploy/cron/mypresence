@@ -1,0 +1,9 @@
+# MyPresence (/etc/cron.d/mypresence)
+SHELL=/bin/bash
+PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+
+# Scheduler Laravel: alpa otomatis, backup per sekolah, billing harian, heartbeat /health, dll.
+* * * * * __APP_USER__ cd __APP_DIR__/current && php artisan schedule:run >> __APP_DIR__/shared/storage/logs/schedule.log 2>&1
+
+# Backup database penuh (mysqldump) 00:45 WIB, simpan 14 hari di __APP_DIR__/backups
+45 0 * * * root /usr/local/bin/mypresence-backup-db >> /var/log/mypresence-backup.log 2>&1

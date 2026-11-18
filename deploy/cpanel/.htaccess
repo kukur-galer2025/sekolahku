@@ -1,0 +1,49 @@
+# MyPresence — public_html/.htaccess (cPanel / Apache / LiteSpeed)
+<IfModule mod_rewrite.c>
+    <IfModule mod_negotiation.c>
+        Options -MultiViews -Indexes
+    </IfModule>
+
+    RewriteEngine On
+
+    # Semua lewat HTTPS (kamera untuk scan QR hanya jalan di HTTPS). Aman di belakang Cloudflare.
+    RewriteCond %{HTTPS} off
+    RewriteCond %{HTTP:X-Forwarded-Proto} !https
+    RewriteCond %{HTTP:CF-Visitor} !https
+    RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+
+    # Berkas tersembunyi (.env, .git, dll.) tidak pernah disajikan
+    RewriteRule (^|/)\.(?!well-known/) - [F,L]
+
+    RewriteCond %{HTTP:Authorization} .
+    RewriteRule .* - [E=HTTP_AUTHORIZATION:%{HTTP:Authorization}]
+    RewriteCond %{HTTP:x-xsrf-token} .
+    RewriteRule .* - [E=HTTP_X_XSRF_TOKEN:%{HTTP:X-XSRF-Token}]
+
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteCond %{REQUEST_URI} (.+)/$
+    RewriteRule ^ %1 [L,R=301]
+
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteRule ^ index.php [L]
+</IfModule>
+
+<IfModule mod_headers.c>
+    # Service worker selalu dicek ulang agar versi baru PWA cepat sampai ke HP.
+    <Files "sw.js">
+        Header set Cache-Control "no-cache"
+        Header set Service-Worker-Allowed "/"
+    </Files>
+    # Aset PWA berversi (?v=) boleh di-cache lama.
+    <FilesMatch "\.(css|js|woff2?|png|webp|svg|ico)$">
+        Header set Cache-Control "public, max-age=2592000"
+    </FilesMatch>
+</IfModule>
+
+<IfModule mod_expires.c>
+    ExpiresActive On
+    ExpiresByType application/manifest+json "access plus 1 hour"
+</IfModule>
+
+AddType application/manifest+json .webmanifest
